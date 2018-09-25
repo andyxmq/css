@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>width-auto</title>
+  <style>
+    table {
+      width: 280px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .father {
+      width: 150px;
+      background-color: #cd0000;
+      white-space: nowrap;
+      padding: 10px;
+    }
+    .child {
+      background: #f0f3f9;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <!-- <table>
+    <tr>
+      <td>就1列就1列就1列就1列就1列</td>
+      <td>当父级relative，且宽度很小的时候，例如...</td>
+      <td>当父级relative，且宽度很小的时候，例如...</td>
+    </tr>
+  </table> -->
+  <div class="father">
+    <span class="child">
+      恰似一江春水向东流，流到断崖也不回头
+      <!-- adfsdfagfhjsgdfajhsgdfjhghjasgfjhgasjhdgfjhagshdfjgajhsdgfjhg -->
+    </span>
+  </div>
+  <div style="display: inline-block;background: #eee">
+  第三方哈克史蒂芬霍金士大夫斯柯达甲方阖家安康顺丰速递
+  </div>
+</body>
+</html>
