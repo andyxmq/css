@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .counter{
+      counter-reset: wangxiaoer;
+      font-size: 32px; 
+      font-family: Arial Black; 
+      color: #cd0000; 
+    }
+    .counter:before,
+    .counter:after {
+      content: counter(wangxiaoer);
+      counter-increment: wangxiaoer;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- <p>我叫王小二，字如其名，下面要出现的数字是：</p> -->
+  <p class="counter"></p>
+</body>
+</html>
